@@ -1,0 +1,309 @@
+*{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+.nav_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 170px;
+    margin-right: 100px;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.nav_list ul li{
+    list-style: none;
+ }
+
+ .nav_list ul li a{
+    text-decoration: line-through;
+    color: #474747;;
+ }
+
+ /*color*/
+ .color{
+    color: #FD6E0A;
+ }
+ .common_btn{
+    height: 40px;
+    width: 100px;
+    color:white;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .common_btn:hover{
+    background-color: aquamarine;
+ }
+
+ .banner_bottom_part{
+    margin-left: 176px;
+ }
+
+.btn_contact{
+    height: 40px;
+    width: 100px;
+    color: #FD6E0A;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+
+}
+.btn_contact:hover{
+    background-color: aquamarine;
+}
+
+.banner_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    background-image: url(../assets/header_bg.png),url(../assets/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    margin: 0px,0px,0px,20px;
+
+}
+
+
+
+
+
+
+/* banner section css*/
+
+.hero{
+    background-image: url(../assets/Hero-bg.png);
+    
+   
+  
+}
+
+.banner_main{
+    margin: 20px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner_description>p{
+    font-weight:16px;
+    font-size:smaller;
+    color: #0D1321;
+}
+
+.baner_button{
+    background-color: #0D1321;
+    text-align: center;
+    text-transform: none;
+  
+    color: white;
+    
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius:;
+    transform: skew(-25deg);
+    cursor: pointer;
+    :hover{
+        background-color: palevioletred;
+    }
+}
+
+.baner_button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Why web development section*/
+
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 900px;
+    
+   
+    margin: 70px auto 0px  auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #0D1321;
+}
+
+.common_style{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.common_style img{
+    height: 200px;
+    width: 200px;
+}
+
+.text{
+    height: 200px;
+}
+
+.heading{
+    
+    color: #0D1321;
+}
+
+.why p{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.why button{
+    border: 2px solid #0D1321 ;
+    width: 140px;
+    height: 40px;
+}
+
+
+/*my inspiration section*/
+
+.inspiration{display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto 40px auto;
+}
+
+/* My current target sections css */
+
+.current_target{
+    
+    height: 400px;
+    width: 900px;
+    margin: 140px auto 140px auto;
+    
+}
+
+.target_card h3{
+    font-size: medium;
+    font-weight: bold;
+}
+ .target_card p{
+    font-size:xx-small;
+    font-weight:lighter;
+ }
+
+ .target_card a{
+    text-decoration: underline solid #0D1321;
+    font-size: xx-small;
+ }
+
+.target_card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 15px;
+
+}
+.card_common{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+
+}
+.card1{
+    background-color: #EBEBEB;
+   
+}
+.card2{
+    background-color: #c5d6f8;
+    opacity: 100%;
+
+}
+.card3{
+    background-color:#fff4ac;
+}
+
+.target_description{
+    text-align: center;
+
+}
+
+/* I need Support section*/
+.support{
+    background-image: url("..//assets/handshake.jpg");
+    background-position: 40%;
+    width: 900px;
+    height: 300px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.input2{
+    height: 40px;
+    width: 100px;
+    color: #0D1321;
+    border: none;
+    border-radius: 5px;
+}
+
+.title{
+    color: #5c5b5b;
+    text-align: center;
+    margin-top: 50px;
+    width: 650px;
+    height: 150px;
+}
+
+
+/* footer part styls*/
+
+.footer{
+    margin: 100px auto 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
